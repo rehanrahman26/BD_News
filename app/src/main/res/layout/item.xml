@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/layItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bottom_shade"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+        <ImageView
+            android:id="@+id/itemCover"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/thumb"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+            >
+
+            <TextView
+                android:id="@+id/itemCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAT"
+                android:background="#E88C8C"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিশ্বের শীর্ষ ধনী ইলন মাস্ক জনপ্রিয় সামাজিক যোগাযোগ মাধ্যম টুইটার কেনার পর একের পর এক বিতর্কিত সিদ্ধান্ত নিয়েছেন।"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="#99000000"
+                />
+
+            <TextView
+                android:id="@+id/itemDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সোশ্যাল মিডিয়াগুলোর মধ্যে জনপ্রিয়তার শীর্ষে আছে ফেসবুক। সবচেয়ে পুরোনো এবং জনপ্রিয় এই প্ল্যাটফর্মে ব্যবহারকারী আছে পুরো বিশ্বেই। স্মার্টফোন ব্যবহারকারীদের সিংহভাগই ফেসবুক ব্যবহার করছেন। প্রিয়জনের সঙ্গে চ্যাট হোক বা অপরিচিতের সঙ্গে বন্ধুত্ব তৈরি সব কিছুতেই এগিয়ে রয়েছে প্ল্যাটফর্মটি।"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="5dp"
+                android:textColor="#99000000"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BD News</string>
+    <string name="messageWithLink"><a href="https://www.prothomalo.com/">Prothon Alo</a></string>
+    <string name="jugantor"><a href="https://www.jugantor.com/"> Jugantor</a></string>
+    <string name="dailystar"><a href="https://www.thedailystar.net/">Daily Star</a></string>
+
+    <string name="Inkilab"><a href="https://www.dailyinqilab.com/"> Inkilab</a></string>
+    <string name="Manobjomin"><a href="https://mzamin.com/">Manob Jomin</a></string>
+    <string name="Somokal"><a href="https://samakal.com/">Somokal</a></string>
+
+</resources>
